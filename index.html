@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071426">
+<title>MY FOOTBALL PRO</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="ball">⚽</div><div><h1>MY FOOTBALL PRO</h1><p>منصة تحليل مباريات كرة القدم</p></div></header>
+<main>
+<section class="panel">
+<h2>تحليل مباراة جديدة</h2>
+<label>الفريق الأول</label><input id="home" placeholder="مثال: Real Madrid">
+<label>الفريق الثاني</label><input id="away" placeholder="مثال: Barcelona">
+<button id="go">حلّل المباراة عبر الإنترنت</button>
+<p class="hint">اكتب أسماء الفرق بالإنجليزية للحصول على نتائج بحث أدق.</p>
+</section>
+<section id="status" class="panel status">أدخل الفريقين ثم اضغط على تحليل المباراة.</section>
+<section id="result" class="panel hidden"></section>
+<section class="panel small"><h3>كيف يعمل التحليل؟</h3><p>يحاول التطبيق جلب آخر نتائج الفريقين من TheSportsDB، ثم يحسب مؤشرات مبسطة للهجوم والدفاع واحتمالات تقريبية. إذا لم تتوفر بيانات كافية، سيخبرك بذلك بدلاً من اختلاق أرقام.</p><p class="warning">التوقعات احتمالية وليست ضماناً للنتيجة أو الربح. قد تختلف تغطية البيانات حسب الدوري والفريق.</p></section>
+</main>
+<footer>MY FOOTBALL PRO · الإصدار 1.0</footer>
+<script src="app.js"></script>
+</body></html>
